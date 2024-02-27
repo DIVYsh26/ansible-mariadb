@@ -1,0 +1,10 @@
+client
+[db]
+db1 ansible_user=div ansible_password=qwerty
+db2 ansible_port=8000
+[web]
+web1
+10.0.0.4
+web2
+[linux:children]
+web
